@@ -1,0 +1,71 @@
+.filters{
+    flex: 0.1;
+    margin: 0 auto;
+    align-self: flex-start;
+}
+.filter-title{
+    margin-bottom: 0.5rem;
+}
+.filters .search{
+    border: none;
+    background: var(--clr-grey-10);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.cat-list{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.cat-item{
+    padding: 0.2rem;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--clr-grey-5);
+    cursor: pointer;
+}
+.active{
+    width: 20px;
+    border-bottom: 1px solid var(--clr-grey-5);
+}
+.filters .company-input{
+    height: 20px;
+    margin-bottom: 1rem;
+    border: none;
+    background: var(--clr-grey-10);
+    padding: 0.2rem;
+}
+.color-filter{
+    margin-bottom: 1rem;
+}
+.color-filter .select-color{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.color-filter .color{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.all{
+    cursor: pointer;
+}
+.price-filter .select-price{
+    display: flex;flex-direction: column;
+}
+.select-price input{
+    width: 100px;
+    margin-bottom: 1rem;
+}
+.shipping-filter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.clear-filter{
+    background-color: var(--clr-red-dark);
+    color: var(--clr-white);
+}
+

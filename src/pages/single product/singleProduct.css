@@ -1,0 +1,119 @@
+.single-product{
+}
+.single-product svg{
+    fill:rgb(255, 185, 0);
+}
+.back-btn{
+    margin: 2rem 0;
+    margin-left: 1rem;
+}
+.single-product .img-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.img-section > img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+.list-of-img{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 1rem;
+}
+.list-of-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 40px;
+}
+.info-section{
+    padding: 0 1rem;
+    margin-top: 4rem;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+.reviews .review-count{
+    font-size: 12px;
+    margin-left: 1rem;
+}
+.info-section .price{
+    color: var(--clr-primary-5);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+.info-section .desc{
+    font-size: 13px;
+    font-weight: 300;
+}
+.margin{
+    margin-bottom: 2rem;
+}
+.details{
+    display: flex;align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.avail-title{
+    font-weight: 500;
+}
+.info-section .line{
+    margin-top: 1rem;
+}
+.select-color{
+    display: flex;
+    gap: 0.4rem;
+}
+.select-color .color{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+}
+.single-product .quantity-section{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.minimize{
+    transform: scale(0.97);
+}
+.add-to-cart{
+    margin-bottom: 2rem;
+}
+.active .fa-check{
+    display: block;
+}
+.fa-check{
+    transform: scale(0.7);
+    color: blue;
+    display: none;
+}
+
+@media screen and (min-width:470px) {
+    .list-of-img img{
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:800px){
+    .single-product .container{
+        display: flex;
+        margin-bottom: 4rem;
+    }
+    .img-section{
+        flex: 0.5;
+    }
+    .img-section > img{
+        height: 400px;
+    }
+    .info-section{
+        flex: 0.5;
+        margin-top: 0;
+    }
+}

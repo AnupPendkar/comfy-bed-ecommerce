@@ -1,0 +1,28 @@
+.cart-page{
+}
+.cart-page .width-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.clear-btn{
+    background: rgb(34,34,34);
+}
+.price-section, .subtotal-section{
+    display: none;
+}
+
+
+@media screen and (min-width: 700px) {
+    .price-section, .subtotal-section{
+        display: block;
+    }
+    .name-and-color .price{
+        display: none;
+    }
+}

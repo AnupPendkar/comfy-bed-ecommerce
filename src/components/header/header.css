@@ -1,0 +1,55 @@
+header{
+    padding: 0rem 1rem;
+}
+header .width-container{
+    margin-top: 4rem;
+}
+header .desc-content{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.desc-content .desc{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.img-content{
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    header{
+        padding: 0rem 3rem;
+    }
+    header .width-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 7rem;
+        margin-top: 11rem;
+        margin-bottom: 8rem;
+    }
+    header .desc-content{
+        max-width: 600px;
+        margin: 0 0;
+        flex: 0.5;
+    }
+    .img-content{
+        display: block;
+        background: rgb(222,203,192);
+        height: 400px;
+        max-width: 400px;
+        flex: 0.5;
+    }
+    .img-content .header-img-1{
+        width: 400px;
+        position: relative;
+        top: -23%;
+        left: 10%;
+    }
+    .img-content .header-img-2{
+        width: 250px;
+        position: relative;
+        top: -50%;
+        left: -25%;
+    }
+
+}

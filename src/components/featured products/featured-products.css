@@ -1,0 +1,31 @@
+.featured-prod{
+    background: rgb(241,245,248);
+    margin-top: 5rem;
+}
+.featured-prod .width-container{
+    padding: 4rem 1rem;
+    display: flex;flex-direction: column;align-items: center;
+}
+.underline{
+    width: 8rem;
+    height: 4px;
+    background-color: var(--clr-primary-5);
+    margin-bottom: 3rem;
+}
+.all-products{
+    margin-top: 1rem;
+}
+.featured-prod .products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+@media screen and (min-width:850px) {
+    .featured-prod{
+        padding: 4rem 3rem;
+    }
+}

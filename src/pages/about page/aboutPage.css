@@ -1,0 +1,39 @@
+.story{
+    padding: 3rem 1rem;
+}
+.story .width-container{
+    display: flex;
+    flex-direction: column;
+}
+.story img{
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 3rem;
+}
+.story .underline{
+    width: 100px;
+    margin-top: 0.5rem;
+}
+.story .desc{
+    color: var(--clr-grey-5);
+    line-height: 2;
+}
+
+@media screen and (min-width:850px) {
+    .story .width-container{
+        gap: 3rem;
+        flex-direction: row;
+    }
+    .story img{
+        min-width: 500px;
+        margin: 0;
+        height: 500px;
+    }
+    .story .desc{
+        color: rgb(97,125,152);
+        font-size: 1.1rem;
+    }
+}

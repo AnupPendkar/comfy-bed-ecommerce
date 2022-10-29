@@ -1,0 +1,22 @@
+.product-page{
+    padding: 0rem 1rem;
+}
+.product-page .width-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+@media screen and (min-width:650px) {
+    .product-page{
+        padding: 0rem 3rem;
+    }
+    .product-page .width-container{
+        flex-direction: row;
+    }
+    .filters{
+        position: sticky;
+        top: 10px;
+    }
+}

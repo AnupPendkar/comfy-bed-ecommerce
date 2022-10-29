@@ -1,0 +1,51 @@
+.bill-container{
+    padding: 0 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 380px;
+    align-self: center;
+}
+.bill-container .width-container{
+
+}
+.bill{
+    padding: 1.5rem 3rem;
+    border: 1px solid rgb(188,204,220);
+}
+
+.bill-container .container{
+    display: flex;
+    justify-content: space-between;
+}
+.total-fee-container{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.ship-fee-container{
+    margin: 1rem 0;
+}
+
+.line{
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(188,204,220);
+    height: 1px;
+    margin-bottom: 1.5rem;
+}
+
+.total-order-container{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.login-btn{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+@media screen and (min-width:700px) {
+    .bill-container{
+        align-self: flex-end;
+    }
+}

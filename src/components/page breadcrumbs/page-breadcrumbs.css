@@ -1,0 +1,17 @@
+.pageBreadcrumbs{
+    background: rgb(234,222,215);
+    padding: 3rem 1rem;
+}
+.page-title{
+    color: #795744;
+    font-size: 23px;
+}
+.pageBreadcrumbs span{
+    color: rgb(69,50,39);
+}
+
+@media screen and (min-width:900px) {
+    .pageBreadcrumbs{
+        padding: 3rem 3rem;
+    }
+}
